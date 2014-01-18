@@ -311,6 +311,13 @@
     <string name="increasing_ring_interval_5seconds">5 seconds</string>
     <string name="increasing_ring_interval_10seconds">10 seconds</string>
 
+    <!-- Reset user preferences -->
+    <!-- 重置用户偏好 -->
+    <string name="reset_user_preferences_category_title">Personalization</string>
+    <string name="reset_user_preferences_title">Reset preferences</string>
+    <string name="reset_user_preferences_summary">Restores user interface preferences to default values</string>
+    <string name="reset_user_preferences_dialog">Are you sure you want to reset your preferences?</string>
+
     <!-- Longpress back button to kill foreground app -->
     <!-- 长按返回键杀掉前台应用 -->
     <string name="kill_app_longpress_back">Kill app longpress back</string>
