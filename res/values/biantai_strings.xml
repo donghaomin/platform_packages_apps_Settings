@@ -51,6 +51,15 @@
     <!-- 条目内显示的主标题 -->
     <string name="system_interface_title">DAFAQ IS THIS</string>
 
+    <!-- Clear all recents button -->
+    <!-- "清除全部最近应用"按钮 -->
+    <string name="clear_all_recents_button_title">Clear all recents button</string>
+    <string name="clear_all_recents_button_off">Off</string>
+    <string name="clear_all_recents_button_top_left">Top left</string>
+    <string name="clear_all_recents_button_top_right">Top right</string>
+    <string name="clear_all_recents_button_bottom_left">Bottom left</string>
+    <string name="clear_all_recents_button_bottom_right">Bottom right</string>
+
     <!-- Status bar -->
     <!-- 通知栏设置 -->
     <string name="status_bar_category_title">Status bar</string>
