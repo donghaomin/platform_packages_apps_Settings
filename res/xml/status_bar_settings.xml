@@ -38,27 +38,14 @@
            $$$$$$                    $$$
                                    $$$$
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    
-    <!-- DAFUQ IS THIS -->
-    <!-- Settings main menu category heading -->
-    <!-- 设置主界面的分类抬头 -->
-    <string name="header_category_ffffuuuuuu">FFFFUUUUUU</string>
-    <!-- Settings main menu item name -->
-    <!-- 设置主界面的条目名称 -->
-    <string name="system_settings_title">DAFAQ IS THIS</string>
-    <!-- PreferenceScreen title -->
-    <!-- 条目内显示的主标题 -->
-    <string name="system_interface_title">DAFAQ IS THIS</string>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/status_bar_title">
+        
+    <CheckBoxPreference
+        android:key="status_bar_brightness_control"
+        android:title="@string/status_bar_toggle_brightness"
+        android:summary="@string/status_bar_toggle_brightness_summary"
+        android:defaultValue="false" />
 
-    <!-- Status bar -->
-    <!-- 通知栏设置 -->
-    <string name="status_bar_title">Status bar</string>
-    
-    <!-- Status bar brightness control -->
-    <!-- 通知栏亮度控制 -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across status bar</string>
-    <string name="status_bar_toggle_info">Automatic brightness must be disabled</string>
-
-</resources>
+</PreferenceScreen>
