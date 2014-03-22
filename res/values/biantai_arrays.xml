@@ -39,32 +39,21 @@
                                    $$$$
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    
-    <!-- DAFUQ IS THIS -->
-    <!-- Settings main menu category heading -->
-    <!-- 设置主界面的分类抬头 -->
-    <string name="header_category_ffffuuuuuu">FFFFUUUUUU</string>
-    <!-- Settings main menu item name -->
-    <!-- 设置主界面的条目名称 -->
-    <string name="system_settings_title">DAFAQ IS THIS</string>
-    <!-- PreferenceScreen title -->
-    <!-- 条目内显示的主标题 -->
-    <string name="system_interface_title">DAFAQ IS THIS</string>
 
-    <!-- Status bar -->
-    <!-- 通知栏设置 -->
-    <string name="status_bar_title">Status bar</string>    
-    <!-- Status bar brightness control -->
-    <!-- 通知栏亮度控制 -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across status bar</string>
-    <string name="status_bar_toggle_info">Automatic brightness must be disabled</string>
-    <!-- Status bar battery style selection -->
-    <!-- 通知栏电池图标样式选择 -->
-    <string name="battery_style_title">Battery style</string>
-    <string name="battery_bar">Battery bar</string>
-    <string name="battery_bar_percent">Battery bar &amp; percent</string>
-    <string name="battery_circle">Battery circle</string>
-    <string name="battery_circle_percent">Battery circle &amp; percent</string>
+    <!-- Status bar battery style selection dialog -->
+    <!-- 通知栏电池图标样式选单 -->
+    <string-array name="entries_status_bar_battery" translatable="false">
+        <item>@string/battery_bar</item>
+        <item>@string/battery_bar_percent</item>
+        <item>@string/battery_circle</item>
+        <item>@string/battery_circle_percent</item>
+    </string-array>
+
+    <string-array name="values_status_bar_battery" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 
 </resources>
