@@ -92,6 +92,22 @@
         <item>3</item>
     </string-array>
 
+    <!--- Volume rocker cursor control -->
+    <!--- 音量键光标调节 -->
+    <string-array name="volume_key_cursor_control_entries">
+        <item>@string/volume_key_cursor_control_off</item>
+        <item>@string/volume_key_cursor_control_on</item>
+        <item>@string/volume_key_cursor_control_on_reverse</item>
+    </string-array>
+
+    <!--- Values for volume rocker cursor control -->
+    <!--- 音量键光标调节数值 -->
+    <string-array name="volume_key_cursor_control_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Increasing ring interval selection -->
     <!-- 渐强铃声间隔选单 -->
     <string-array name="increasing_ring_interval_entries" translatable="false">

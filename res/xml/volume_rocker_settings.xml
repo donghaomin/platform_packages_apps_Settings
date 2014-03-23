@@ -44,8 +44,8 @@
 
     <CheckBoxPreference
         android:key="volume_adjust_sounds"
-        android:summary="@string/volume_adjust_sounds_summary"
         android:title="@string/volume_adjust_sounds_title"
+        android:summary="@string/volume_adjust_sounds_summary"
         android:persistent="false" />
 
     <ListPreference
@@ -53,5 +53,25 @@
         android:title="@string/volume_overlay_title"
         android:entries="@array/volume_overlay_entries"
         android:entryValues="@array/volume_overlay_values" />
+
+    <ListPreference
+        android:key="volume_key_cursor_control"
+        android:dialogTitle="@string/volume_key_cursor_control_title"
+        android:title="@string/volume_key_cursor_control_title"
+        android:entries="@array/volume_key_cursor_control_entries"
+        android:entryValues="@array/volume_key_cursor_control_values"
+        android:persistent="false" />
+
+    <CheckBoxPreference
+        android:key="pref_volume_wake"
+        android:title="@string/pref_volume_wake_title"
+        android:summary="@string/pref_volume_wake_summary"
+        android:defaultValue="false" />
+    
+    <CheckBoxPreference
+        android:key="volbtn_music_controls"
+        android:title="@string/volbtn_music_controls_title"
+        android:summary="@string/volbtn_music_controls_summary"
+        android:persistent="false" />
 
 </PreferenceScreen>

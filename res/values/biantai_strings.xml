@@ -94,6 +94,23 @@
     <string name="volume_overlay_title">Volume panel style</string>
     <string name="volume_ring_only_description">Ringtone</string>
 
+    <!-- Volume rocker cursor control -->
+    <!-- 音量键光标调整 -->
+    <string name="volume_key_cursor_control_title">Volume rocker cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- Volume rocker wake -->
+    <!-- 音量键唤醒屏幕 -->
+    <string name="pref_volume_wake_title">Volume rocker wake</string>
+    <string name="pref_volume_wake_summary">Pressing the volume rocker will wake your Nexus</string>
+
+    <!-- Volume rocker music control -->
+    <!-- 音量键播放曲目调整 -->
+    <string name="volbtn_music_controls_title">Volume rocker music controls</string>
+    <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rocker will seek music tracks</string>
+
     <!-- Increasing Ringtone -->
     <!-- 渐强铃声 -->
     <string name="increasing_ring_title">Ascending ringtone</string>
