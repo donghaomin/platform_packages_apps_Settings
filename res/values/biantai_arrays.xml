@@ -74,6 +74,24 @@
         <item>4</item>
     </string-array>
 
+    <!-- Volume overlay style -->
+    <!-- 音量调节面板样式 -->
+    <string-array name="volume_overlay_entries">
+        <item>Single</item>
+        <item>Expandable</item>
+        <item>Expanded</item>
+        <item>None</item>
+    </string-array>
+
+    <!-- Values for volume overlay style -->
+    <!-- 音量调节面板样式数值 -->
+    <string-array name="volume_overlay_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <!-- Increasing ring interval selection -->
     <!-- 渐强铃声间隔选单 -->
     <string-array name="increasing_ring_interval_entries" translatable="false">
