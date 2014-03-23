@@ -56,9 +56,15 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String KEY_VOLUME_ADJUST_SOUNDS = "volume_adjust_sounds";
     private static final String KEY_VOLUME_OVERLAY = "volume_overlay";
+    private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
+    private static final String KEY_VOLUME_WAKE = "pref_volume_wake";
+    private static final String KEY_VOLBTN_MUSIC_CTRL = "volbtn_music_controls";
 
     private CheckBoxPreference mVolumeAdjustSounds;
     private ListPreference mVolumeOverlay;
+    private ListPreference mVolumeKeyCursorControl;
+    private CheckBoxPreference mVolumeWake;
+    private CheckBoxPreference mVolBtnMusicCtrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,6 +83,22 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
                 VolumePanel.VOLUME_OVERLAY_EXPANDABLE);
         mVolumeOverlay.setValue(Integer.toString(volumeOverlay));
         mVolumeOverlay.setSummary(mVolumeOverlay.getEntry());
+
+        mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
+        if(mVolumeKeyCursorControl != null) {
+            mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
+            mVolumeKeyCursorControl.setValue(Integer.toString(Settings.System.getInt(getActivity().getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0)));
+            mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
+        }
+
+        mVolumeWake = (CheckBoxPreference) findPreference(KEY_VOLUME_WAKE);
+        mVolumeWake.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
+
+        mVolBtnMusicCtrl = (CheckBoxPreference) findPreference(KEY_VOLBTN_MUSIC_CTRL);
+        mVolBtnMusicCtrl.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.VOLBTN_MUSIC_CONTROLS, 0) == 1);
     }
 
     @Override
@@ -85,6 +107,14 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
             Settings.System.putInt(getContentResolver(),
                     Settings.System.VOLUME_ADJUST_SOUNDS_ENABLED,
                     mVolumeAdjustSounds.isChecked() ? 1 : 0);
+        } else if (preference == mVolumeWake) {
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.VOLUME_WAKE_SCREEN,
+                    mVolumeWake.isChecked() ? 1 : 0);
+        } else if (preference == mVolBtnMusicCtrl) {
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.VOLBTN_MUSIC_CONTROLS,
+                    mVolBtnMusicCtrl.isChecked() ? 1 : 0);
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
@@ -97,6 +127,14 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
                     Settings.System.MODE_VOLUME_OVERLAY, valueVolumeOverlay);
             mVolumeOverlay.setSummary(mVolumeOverlay.getEntries()[indexVolumeOverlay]);
             return true;
+
+        } else if (preference == mVolumeKeyCursorControl) {
+            String volumeKeyCursorControl = (String) objValue;
+            int valVolumeKeyCursorControl = Integer.parseInt(volumeKeyCursorControl);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, valVolumeKeyCursorControl);
+            int indexVolumeKeyCursorControl = mVolumeKeyCursorControl.findIndexOfValue(volumeKeyCursorControl);
+            mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntries()[indexVolumeKeyCursorControl]);
         }
         return true;
     }
