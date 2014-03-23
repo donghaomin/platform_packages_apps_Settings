@@ -76,6 +76,14 @@
     <string name="battery_circle">Battery circle</string>
     <string name="battery_circle_percent">Battery circle &amp; percent</string>
 
+    <!-- Volume rocker -->
+    <!-- 音量键设置 -->
+    <string name="volume_rocker_category_title">Volume rocker</string>
+    <!-- Volume Adjust sound -->
+    <!-- 音量调整音 -->
+    <string name="volume_adjust_sounds_title">Volume adjust sound</string>
+    <string name="volume_adjust_sounds_summary">Play sound when adjusting volume with volume rocker</string>
+
     <!-- Increasing Ringtone -->
     <!-- 渐强铃声 -->
     <string name="increasing_ring_title">Ascending ringtone</string>
