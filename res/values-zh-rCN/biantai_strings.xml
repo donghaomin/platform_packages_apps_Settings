@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- DAFUQ IS THIS -->
+    <!-- Settings main menu category heading -->
+    <!-- 设置主界面的分类抬头 -->
+    <string name="header_category_ffffuuuuuu">FFFFUUUUUU</string>
+    <!-- Settings main menu item name -->
+    <!-- 设置主界面的条目名称 -->
+    <string name="system_settings_title">DAFAQ IS THIS</string>
+    <!-- PreferenceScreen title -->
+    <!-- 条目内显示的主标题 -->
+    <string name="system_interface_title">DAFAQ IS THIS</string>
+
+    <!-- Clear all recents button -->
+    <!-- "清除全部最近应用"按钮 -->
+    <string name="clear_all_recents_button_title">一键任务清除按钮</string>
+    <string name="clear_all_recents_button_off">关闭</string>
+    <string name="clear_all_recents_button_top_left">左上</string>
+    <string name="clear_all_recents_button_top_right">右上</string>
+    <string name="clear_all_recents_button_bottom_left">左下</string>
+    <string name="clear_all_recents_button_bottom_right">右下</string>
+
+    <!-- Status bar -->
+    <!-- 通知栏设置 -->
+    <string name="status_bar_title">状态栏设置</string>    
+    <!-- Status bar brightness control -->
+    <!-- 通知栏亮度控制 -->
+    <string name="status_bar_toggle_brightness">亮度调节</string>
+    <string name="status_bar_toggle_brightness_summary">在状态栏上滑动以调节亮度</string>
+    <string name="status_bar_toggle_info">亮度自动调节需禁用</string>
+    <!-- Status bar battery style selection -->
+    <!-- 通知栏电池图标样式选择 -->
+    <string name="battery_style_title">电池图标样式</string>
+    <string name="battery_bar">条形电池</string>
+    <string name="battery_bar_percent">条形电池 &amp; 百分比</string>
+    <string name="battery_circle">环形电池</string>
+    <string name="battery_circle_percent">环形电池 &amp; 百分比</string>
+
+    <!-- Volume rocker -->
+    <!-- 音量键设置 -->
+    <string name="volume_rocker_category_title">音量键设置</string>
+    <!-- Volume Adjust sound -->
+    <!-- 音量调整音 -->
+    <string name="volume_adjust_sounds_title">音量键之音量调节</string>
+    <string name="volume_adjust_sounds_summary">音量键调节音量时播放声音</string>
+
+    <!-- Unlinkable volumes -->
+    <!-- 分离音量选单 -->
+    <string name="link_volume_ringtones">关联铃声 &amp; 通知音</string>
+    <string name="link_volume_mutes">安静模式影响通知音</string>
+
+    <!-- Volume overlay style -->
+    <!-- 音量调节面板样式 -->
+    <string name="volume_overlay_title">音量调节面板</string>
+    <string name="volume_ring_only_description">仅调节铃声</string>
+
+    <!-- Volume rocker cursor control -->
+    <!-- 音量键光标调整 -->
+    <string name="volume_key_cursor_control_title">音量键之光标调整</string>
+    <string name="volume_key_cursor_control_off">禁用</string>
+    <string name="volume_key_cursor_control_on">音量+/— 控制光标左/右</string>
+    <string name="volume_key_cursor_control_on_reverse">音量+/— 控制光标右/左</string>
+
+    <!-- Volume rocker wake -->
+    <!-- 音量键唤醒屏幕 -->
+    <string name="pref_volume_wake_title">音量键之屏幕唤醒</string>
+    <string name="pref_volume_wake_summary">按下音量键将唤醒你的Nexus设备</string>
+
+    <!-- Volume rocker music control -->
+    <!-- 音量键播放曲目调整 -->
+    <string name="volbtn_music_controls_title">音量键之音乐控制</string>
+    <string name="volbtn_music_controls_summary">锁屏时，长按音量键将搜寻音乐曲目</string>
+
+    <!-- Increasing Ringtone -->
+    <!-- 渐强铃声 -->
+    <string name="increasing_ring_title">渐强铃声</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
+    <!-- 声音设置界面, 启用渐强铃声的勾选框 -->
+    <string name="checkbox_increasing_ring">Enable</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <!-- 声音设置界面, 渐强铃声的起始音量调节条的标题 -->
+    <string name="increasing_ring_min_volume_title">响铃初始音量</string>
+    <string name="increasing_ring_volume_notice">注意:\n当设置的初始音量高于铃声音量时, 将优先使用铃声音量。</string>
+    <string name="increasing_ring_interval_title">渐强间隔</string>
+    <string name="increasing_ring_interval_eachring">每次响铃</string>
+    <string name="increasing_ring_interval_half_second">0.5 秒</string>
+    <string name="increasing_ring_interval_1second">1 秒</string>
+    <string name="increasing_ring_interval_2seconds">2 秒</string>
+    <string name="increasing_ring_interval_3seconds">3 秒</string>
+    <string name="increasing_ring_interval_5seconds">5 秒</string>
+    <string name="increasing_ring_interval_10seconds">10 秒</string>
+
+</resources>
