@@ -84,6 +84,16 @@
     <string name="volume_adjust_sounds_title">Volume adjust sound</string>
     <string name="volume_adjust_sounds_summary">Play sound when adjusting volume with volume rocker</string>
 
+    <!-- Unlinkable volumes -->
+    <!-- 分离音量选单 -->
+    <string name="link_volume_ringtones">Link ringtone &amp; notifications volumes</string>
+    <string name="link_volume_mutes">Silent mode affects notifications</string>
+
+    <!-- Volume overlay style -->
+    <!-- 音量调节面板样式 -->
+    <string name="volume_overlay_title">Volume panel style</string>
+    <string name="volume_ring_only_description">Ringtone</string>
+
     <!-- Increasing Ringtone -->
     <!-- 渐强铃声 -->
     <string name="increasing_ring_title">Ascending ringtone</string>
