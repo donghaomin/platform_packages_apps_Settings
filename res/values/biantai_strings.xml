@@ -40,6 +40,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Generic strings -->
+    <!-- 通用strings -->
+    <string name="ok_string">OK</string>
+    <string name="reset_string">Reset</string>
+
     <!-- DAFUQ IS THIS -->
     <!-- Settings main menu category heading -->
     <!-- 设置主界面的分类抬头 -->
@@ -59,6 +64,21 @@
     <string name="clear_all_recents_button_top_right">Top right</string>
     <string name="clear_all_recents_button_bottom_left">Bottom left</string>
     <string name="clear_all_recents_button_bottom_right">Bottom right</string>
+
+    <!-- Navigation bar -->
+    <!-- 导航栏设置 -->
+    <string name="navigation_bar_category_title">Navigation bar</string>
+    <!-- Navigation bar buttons customization -->
+    <!-- 个性化导航栏按键 -->
+    <string name="navigation_bar_customization_title">Buttons and layout</string>
+    <string name="navigation_bar_help_text">1 - To begin editing, tap the lock icon\n\n2 - Tap any button to assign or change functionality\n\n3 - Long press any button to rearrange the order\n\n4 - To save, tap the lock icon again\n\n5 - To restore system default, tap the reset button\n\n</string>
+    <string name="navigation_bar_tips">\u2022 Actions can only be assigned to one button at a time\n\n\u2022 The home button cannot be re-assigned\n\n\u2022 Side buttons cannot be rearranged</string>
+    <string name="navigation_bar_tips_title">Quick tips</string>
+    <string name="navigation_bar_reset_message">Delete current settings and restore to default?</string>
+    <string name="navigation_bar_save_message">Navigation bar settings saved</string>
+    <string name="navigation_bar_reset_toast">Navigation bar reset to default</string>
+    <string name="navigation_bar_menu_editable">Editable</string>
+    <string name="navigation_bar_menu_locked">Locked</string>
 
     <!-- Status bar -->
     <!-- 通知栏设置 -->
@@ -111,7 +131,7 @@
     <string name="volbtn_music_controls_title">Volume rocker music controls</string>
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rocker will seek music tracks</string>
 
-    <!-- Increasing Ringtone -->
+    <!-- Increasing ringtone -->
     <!-- 渐强铃声 -->
     <string name="increasing_ring_title">Ascending ringtone</string>
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->

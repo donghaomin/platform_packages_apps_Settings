@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+/*
                          $$$$$$$$$$$$$$$
                       $$$$$$        $$  $$$$
                      $$$             $     $$$
@@ -37,32 +36,29 @@
             $$$$$                    $$$$
            $$$$$$                    $$$
                                    $$$$
--->
-<PreferenceScreen
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/system_interface_title"
-        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+*/
 
-    <ListPreference
-        android:key="clear_all_recents_button"
-        android:title="@string/clear_all_recents_button_title"
-        android:dialogTitle="@string/clear_all_recents_button_title"
-        android:entries="@array/entries_clear_all_recents_button"
-        android:entryValues="@array/values_clear_all_recents_button" />
+package com.android.settings.biantai;
 
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.NavigationBarSettings"
-        android:key="navigation_bar"
-        android:title="@string/navigation_bar_category_title" />
+import android.os.Bundle;
+import android.preference.Preference;
 
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.StatusBarSettings"
-        android:key="status_bar"
-        android:title="@string/status_bar_category_title" />
+import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
 
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.VolumeRocker"
-        android:key="volume_rocker_settings"
-        android:title="@string/volume_rocker_category_title" />
+public class NavigationBarSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
-</PreferenceScreen>
+    private static final String TAG = "NavigationBarSettings";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        addPreferencesFromResource(R.xml.navigation_bar_settings);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        return false;
+    }
+}
