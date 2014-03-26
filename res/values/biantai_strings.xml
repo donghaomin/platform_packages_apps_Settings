@@ -162,4 +162,9 @@
     <string name="increasing_ring_interval_5seconds">5 seconds</string>
     <string name="increasing_ring_interval_10seconds">10 seconds</string>
 
+    <!-- Longpress back button to kill foreground app -->
+    <!-- 长按返回键杀掉前台应用 -->
+    <string name="kill_app_longpress_back">Kill app longpress back</string>
+    <string name="kill_app_longpress_back_summary">Longpress back button to kill foreground app</string>
+
 </resources>
