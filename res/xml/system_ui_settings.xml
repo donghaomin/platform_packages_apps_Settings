@@ -70,4 +70,9 @@
         android:key="volume_rocker_settings"
         android:title="@string/volume_rocker_category_title" />
 
+    <PreferenceScreen
+        android:fragment="com.android.settings.biantai.LockscreenTargets"
+        android:key="lockscreen_targets"
+        android:title="@string/lockscreen_targets_title" />
+
 </PreferenceScreen>
