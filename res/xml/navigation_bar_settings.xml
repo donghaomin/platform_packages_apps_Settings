@@ -48,4 +48,9 @@
         android:key="navigation_bar_customization"
         android:title="@string/navigation_bar_customization_title" />
 
+    <PreferenceScreen
+        android:fragment="com.android.settings.biantai.NavRing"
+        android:key="navigation_ring"
+        android:title="@string/navigation_ring_title" />
+
 </PreferenceScreen>
