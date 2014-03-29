@@ -54,8 +54,13 @@ public class SystemUiSettings extends SettingsPreferenceFragment implements Pref
     private static final String TAG = "SystemUiSettings";
     // Clear all recents button
     private static final String CLEAR_ALL_RECENTS_BUTTON = "clear_all_recents_button";
+    // LED customization
+    private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
 
+    // Clear all recents button
     private ListPreference mClearAllRecentsButton;
+    // LED customization
+    private PreferenceScreen mNotificationPulse;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,6 +76,14 @@ public class SystemUiSettings extends SettingsPreferenceFragment implements Pref
         mClearAllRecentsButton.setValue(String.valueOf(clearStatus));
         mClearAllRecentsButton.setSummary(mClearAllRecentsButton.getEntry());
         mClearAllRecentsButton.setOnPreferenceChangeListener(this);
+
+        // LED customization
+        boolean hasNotificationLed = getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveNotificationLed);
+        mNotificationPulse = (PreferenceScreen) findPreference(KEY_NOTIFICATION_PULSE);
+        if (!hasNotificationLed) {
+            getPreferenceScreen().removePreference(mNotificationPulse);
+        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
