@@ -40,42 +40,32 @@
 -->
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/system_interface_title"
-        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+        android:title="@string/plug_unplug_prompt_settings_title" >
 
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.DoubleTapSleepSettings"
-        android:key="double_tap_sleep"
-        android:title="@string/double_tap_sleep_settings_title" />
+    <CheckBoxPreference
+        android:key="power_notifications"
+        android:title="@string/power_notifications_enable_title"
+        android:summary="@string/power_notifications_enable_summary"
+        android:defaultValue="false"
+        android:persistent="false" />
 
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.LockscreenTargets"
-        android:key="lockscreen_targets"
-        android:title="@string/lockscreen_targets_title" />
+    <Preference
+        android:key="power_notifications_ringtone"
+        android:title="@string/power_notifications_ringtone_title"
+        android:dependency="power_notifications"
+        android:persistent="false" />
 
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.NavigationBarSettings"
-        android:key="navigation_bar"
-        android:title="@string/navigation_bar_category_title" />
+    <CheckBoxPreference
+        android:key="power_notifications_vibrate"
+        android:title="@string/power_notifications_vibrate_title"
+        android:defaultValue="false"
+        android:dependency="power_notifications"
+        android:persistent="false" />
 
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantailed.NotificationLightSettings"
-        android:key="notification_pulse"
-        android:title="@string/notification_led_category_title" />
-
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.PlugUnplugPromptSettings"
-        android:key="plug_unplug_prompt_settings"
-        android:title="@string/plug_unplug_prompt_settings_title" />
-
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.StatusBarSettings"
-        android:key="status_bar"
-        android:title="@string/status_bar_category_title" />
-
-    <PreferenceScreen
-        android:fragment="com.android.settings.biantai.VolumeRocker"
-        android:key="volume_rocker_settings"
-        android:title="@string/volume_rocker_category_title" />
+    <CheckBoxPreference
+        android:key="wake_when_plugged_or_unplugged"
+        android:title="@string/wake_when_plugged_or_unplugged_title"
+        android:summary="@string/wake_when_plugged_or_unplugged_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>

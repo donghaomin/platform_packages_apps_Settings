@@ -88,6 +88,27 @@
     <string name="navring_action_power_menu">Power menu</string>
     <string name="navring_choose_action_title">Choose action</string>
 
+    <!-- Power connect/disconnect prompt -->
+    <!-- 电源连接/断开提示 -->
+    <string name="plug_unplug_prompt_settings_title">Plug/Unplug prompt</string>
+    <!-- Enable/disable notification on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开通知 -->
+    <string name="power_notifications_enable_title">Enable sound/vibration</string>
+    <string name="power_notifications_enable_summary">Play a sound/vibrate when plugged/unplugged</string>
+    <!-- Enable/disable vibrate on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开震动 -->
+    <string name="power_notifications_vibrate_title">Vibrate</string>
+    <!-- Enable/disable play notification sound on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开播放通知声 -->
+    <string name="power_notifications_ringtone_title">Notification sound</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <!-- 启用/禁用电源连接/断开静音 -->
+    <string name="power_notifications_ringtone_silent">Silent</string>
+    <!-- Enable/disable wake on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开唤醒屏幕 -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when plugged/unplugged</string>
+
     <!-- Status bar -->
     <!-- 通知栏设置 -->
     <string name="status_bar_category_title">Status bar</string>
