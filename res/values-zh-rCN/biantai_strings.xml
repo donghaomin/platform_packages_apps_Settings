@@ -71,8 +71,8 @@
     <!-- Navigation bar buttons customization -->
     <!-- 个性化导航栏按键 -->
     <string name="navigation_bar_customization_title">按钮和布局</string>
-    <string name="navigation_bar_help_text">1 - 点击小锁图标以开始编辑按钮布局\n\n2 - 点击任何按钮以指定或更改功能\n\n3 - 长按任何按钮以重新排列按钮顺序\n\n4 - 再次点击小锁图标以保存按钮布局\n\n5 - 点击重置按钮以恢复系统默认设置\n\n</string>
-    <string name="navigation_bar_tips">\u2022 操作一次只能分配一个按钮\n\n\u2022 Home键不可重新分配\n\n\u2022 侧边按钮不可重新排列</string>
+    <string name="navigation_bar_help_text">1 - 点击小锁图标以开始编辑按钮布局\n\n2 - 点击任何按钮以指定或更改其功能\n\n3 - 长按任何按钮以重新排列按钮顺序\n\n4 - 再次点击小锁图标以保存按钮布局\n\n5 - 点击重置按钮以恢复系统默认设置\n\n</string>
+    <string name="navigation_bar_tips">\u2022 操作一次只能分配一个按钮\n\n\u2022 主页键不可重新分配\n\n\u2022 侧边按钮不可重新排列</string>
     <string name="navigation_bar_tips_title">快捷小贴士</string>
     <string name="navigation_bar_reset_message">删除当前设置并恢复至默认?</string>
     <string name="navigation_bar_save_message">导航栏设置已保存</string>
@@ -96,6 +96,27 @@
     <string name="navring_action_google_now">Google 即时</string>
     <string name="navring_action_power_menu">电源菜单</string>
     <string name="navring_choose_action_title">选择操作</string>
+
+    <!-- Power connect/disconnect prompt -->
+    <!-- 电源连接/断开提示 -->
+    <string name="plug_unplug_prompt_settings_title">电源插拔提示</string>
+    <!-- Enable/disable notification on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开通知 -->
+    <string name="power_notifications_enable_title">响铃/振动</string>
+    <string name="power_notifications_enable_summary">电源连接/断开时,播放提示音/振动</string>
+    <!-- Enable/disable vibrate on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开震动 -->
+    <string name="power_notifications_vibrate_title">振动</string>
+    <!-- Enable/disable play notification sound on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开播放通知声 -->
+    <string name="power_notifications_ringtone_title">提示音</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <!-- 启用/禁用电源连接/断开静音 -->
+    <string name="power_notifications_ringtone_silent">静音</string>
+    <!-- Enable/disable wake on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开唤醒屏幕 -->
+    <string name="wake_when_plugged_or_unplugged_title">电源插拔唤醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">电源连接/断开时,唤醒屏幕</string>
 
     <!-- Status bar -->
     <!-- 通知栏设置 -->
@@ -141,33 +162,33 @@
     <!-- Volume rocker wake -->
     <!-- 音量键唤醒屏幕 -->
     <string name="pref_volume_wake_title">屏幕唤醒</string>
-    <string name="pref_volume_wake_summary">按下音量键将唤醒你的Nexus设备</string>
+    <string name="pref_volume_wake_summary">按下音量键唤醒 Nexus</string>
 
     <!-- Volume rocker music control -->
     <!-- 音量键播放曲目调整 -->
     <string name="volbtn_music_controls_title">音乐控制</string>
-    <string name="volbtn_music_controls_summary">锁屏时，长按音量键将搜寻音乐曲目</string>
+    <string name="volbtn_music_controls_summary">锁屏时,长按音量键将搜寻音乐曲目</string>
 
     <!-- Safe headset volume -->
     <!-- 安全耳机音量 -->
     <string name="safe_headset_volume_title">耳机安全音量</string>
-    <string name="safe_headset_volume_summary">耳机第一次插入时为防止音量过大</string>
+    <string name="safe_headset_volume_summary">为防止耳机第一次插入时音量过大</string>
 
     <!-- Double tap to sleep settings -->
     <!-- 双击锁屏手势设置 -->
     <string name="double_tap_sleep_settings_title">双击锁屏</string>
     <string name="double_tap_sleep_glow_pad_title">解锁环</string>
-    <string name="double_tap_sleep_glow_pad_summary">双击解锁环锁屏</string>
+    <string name="double_tap_sleep_glow_pad_summary">双击解锁环内任意处锁屏</string>
     <string name="double_tap_sleep_pattern_title">解锁图案</string>
-    <string name="double_tap_sleep_pattern_summary">双击解锁图案任意处解锁</string>
+    <string name="double_tap_sleep_pattern_summary">双击解锁图案任意处锁屏</string>
     <string name="double_tap_sleep_pin_password_title">Pin和密码</string>
-    <string name="double_tap_sleep_pin_password_summary">双击文本输入框解锁</string>
+    <string name="double_tap_sleep_pin_password_summary">双击密码输入框锁屏</string>
     <string name="double_tap_sleep_status_bar_title">状态栏</string>
     <string name="double_tap_sleep_status_bar_summary">双击状态栏任意处锁屏</string>
 
     <!-- Lockscreen targets customization -->
     <!-- 个性化锁屏目标 -->
-    <string name="lockscreen_targets_info">拖动滑块来指定快捷方式的目标</string>
+    <string name="lockscreen_targets_info">拖动滑块以指定快捷方式</string>
     <string name="lockscreen_targets_title">锁屏滑块</string>
     <string name="lockscreen_targets_reset">锁屏滑块恢复至默认</string>
     <string name="lockscreen_targets_reset_message">删除所有用户创建的锁屏快捷方式并恢复至默认?</string>
@@ -193,10 +214,10 @@
     <string name="icon_picker_chrome">Chrome</string>
     <string name="icon_picker_contacts">联系人</string>
     <string name="icon_picker_email">邮件</string>
-    <string name="icon_picker_email2">Holo 邮件</string>
+    <string name="icon_picker_email2">邮件 Holo</string>
     <string name="icon_picker_facebook">Facebook</string>
     <string name="icon_picker_gallery">图库</string>
-    <string name="icon_picker_google_small">Google (small)</string>
+    <string name="icon_picker_google_small">Google (小)</string>
     <string name="icon_picker_googleplus">Google+</string>
     <string name="icon_picker_googletalk">环聊</string>
     <string name="icon_picker_maps">地图</string>
@@ -204,7 +225,7 @@
     <string name="icon_picker_music">音乐</string>
     <string name="icon_picker_nav_normal">导航</string>
     <string name="icon_picker_phone">电话</string>
-    <string name="icon_picker_podcast">博客</string>
+    <string name="icon_picker_podcast">播客</string>
     <string name="icon_picker_rss">订阅</string>
     <string name="icon_picker_search">搜索</string>
     <string name="icon_picker_sms">短信</string>
@@ -216,7 +237,7 @@
 
     <!-- LED customization dialogs -->
     <!-- LED个性化选单 -->
-    <string name="edit_light_settings">编辑LED</string>
+    <string name="edit_light_settings">LED 设置</string>
     <string name="pulse_speed_title">脉冲长度和速度</string>
     <string name="default_time">正常</string>
     <string name="custom_time">自定义</string>
@@ -263,7 +284,7 @@
     <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
     <!-- 声音设置界面, 渐强铃声的起始音量调节条的标题 -->
     <string name="increasing_ring_min_volume_title">响铃初始音量</string>
-    <string name="increasing_ring_volume_notice">注意:\n当设置的初始音量高于铃声音量时, 将优先使用铃声音量。</string>
+    <string name="increasing_ring_volume_notice">注意:\n当设置的初始音量高于铃声音量时,将优先使用铃声音量。</string>
     <string name="increasing_ring_interval_title">渐强间隔</string>
     <string name="increasing_ring_interval_eachring">每次响铃</string>
     <string name="increasing_ring_interval_half_second">0.5 秒</string>
