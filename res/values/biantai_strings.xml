@@ -290,4 +290,18 @@
     <string name="kill_app_longpress_back">Kill app longpress back</string>
     <string name="kill_app_longpress_back_summary">Longpress back button to kill foreground app</string>
 
+    <!-- Recent panel -->
+    <!-- 最近应用面板 -->
+    <string name="recent_panel_settings_title">Recent panel</string>
+    <string name="recent_panel_scale_title">Size</string>
+    <string name="recent_panel_scale_summary">Recent apps panel size in percent.</string>
+    <string name="recent_panel_100">100% (default)</string>
+    <string name="recent_panel_85">85%</string>
+    <string name="recent_panel_70">70%</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- 注意: 从右向左的语言需要替换左为右 -->
+    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
+    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge.</string>
+
 </resources>
