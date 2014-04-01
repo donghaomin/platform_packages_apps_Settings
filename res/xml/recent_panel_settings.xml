@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
+-->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/recent_panel_settings_title" >
+
+    <ListPreference
+        android:key="recent_panel_expanded_mode"
+        android:title="@string/recent_panel_expanded_mode_title"
+        android:summary="@string/recent_panel_expanded_mode_summary"
+        android:entries="@array/recent_panel_expanded_mode_entries"
+        android:entryValues="@array/recent_panel_expanded_mode_values"
+        android:persistent="false" />
+
+    <CheckBoxPreference
+        android:key="recent_panel_lefty_mode"
+        android:title="@string/recent_panel_lefty_mode_title"
+        android:summary="@string/recent_panel_lefty_mode_summary"
+        android:persistent="false" />
+
+    <ListPreference
+        android:key="recent_panel_scale"
+        android:title="@string/recent_panel_scale_title"
+        android:summary="@string/recent_panel_scale_summary"
+        android:entries="@array/recent_panel_scale_entries"
+        android:entryValues="@array/recent_panel_scale_values"
+        android:persistent="false" />
+
+</PreferenceScreen>
