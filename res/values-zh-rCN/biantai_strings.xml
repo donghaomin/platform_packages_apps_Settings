@@ -162,7 +162,7 @@
     <!-- Volume rocker wake -->
     <!-- 音量键唤醒屏幕 -->
     <string name="pref_volume_wake_title">屏幕唤醒</string>
-    <string name="pref_volume_wake_summary">按下音量键唤醒 Nexus</string>
+    <string name="pref_volume_wake_summary">按下音量键以唤醒 Nexus</string>
 
     <!-- Volume rocker music control -->
     <!-- 音量键播放曲目调整 -->
