@@ -106,7 +106,7 @@
     <string name="power_notifications_ringtone_silent">静音</string>
     <!-- Enable/disable wake on power connect/disconnect -->
     <!-- 启用/禁用电源连接/断开唤醒屏幕 -->
-    <string name="wake_when_plugged_or_unplugged_title">插拔唤醒</string>
+    <string name="wake_when_plugged_or_unplugged_title">屏幕唤醒</string>
     <string name="wake_when_plugged_or_unplugged_summary">电源连接/断开时,唤醒屏幕</string>
 
     <!-- Status bar -->
