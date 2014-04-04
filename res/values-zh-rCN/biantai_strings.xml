@@ -278,4 +278,9 @@
     <string name="kill_app_longpress_back">长按返回键清除应用</string>
     <string name="kill_app_longpress_back_summary">长按返回键将清除前台应用程序</string>
 
+    <!-- Main settings screen, setting title for the user to go into the About phone/tablet screen -->
+    <!-- 设置主界面, 让用户进入 关于手机/平板 界面的按钮标题 -->
+    <string name="about_settings" product="tablet" msgid="593457295516533765">"关于 Nexus"</string>
+    <string name="about_settings" product="default" msgid="1743378368185371685">"关于 Nexus"</string>
+
 </resources>

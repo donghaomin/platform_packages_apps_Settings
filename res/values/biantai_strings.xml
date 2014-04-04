@@ -309,4 +309,9 @@
     <string name="kill_app_longpress_back">Kill app longpress back</string>
     <string name="kill_app_longpress_back_summary">Longpress back button to kill foreground app</string>
 
+    <!-- Main settings screen, setting title for the user to go into the About phone/tablet screen -->
+    <!-- 设置主界面, 让用户进入 关于手机/平板 界面的按钮标题 -->
+    <string name="about_settings" product="tablet">About Nexus</string>
+    <string name="about_settings" product="default">About Nexus</string>
+
 </resources>
