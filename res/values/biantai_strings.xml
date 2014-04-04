@@ -314,4 +314,9 @@
     <string name="about_settings" product="tablet">About Nexus</string>
     <string name="about_settings" product="default">About Nexus</string>
 
+    <!-- About Nexus screen, FFFFUUUUUU build date -->
+    <!-- 关于Nexus界面, FFFFUUUUUU生产日期 -->
+    <string name="ffffuuuuuu_build_date">FFFFUUUUUU build date</string>
+    <string name="ffffuuuuuu_build_date_default">1992-08-16-love</string>
+
 </resources>
