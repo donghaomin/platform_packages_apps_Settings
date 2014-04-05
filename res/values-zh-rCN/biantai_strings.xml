@@ -48,31 +48,22 @@
     <!-- DAFUQ IS THIS -->
     <!-- Settings main menu category heading -->
     <!-- 设置主界面的分类抬头 -->
-    <string name="header_category_ffffuuuuuu">变态·控</string>
+    <string name="header_category_ffffuuuuuu">FFFFUUUUUU</string>
     <!-- Settings main menu item name -->
     <!-- 设置主界面的条目名称 -->
-    <string name="system_settings_title">Come on，变态吧！</string>
+    <string name="system_settings_title">康忙 变态吧!</string>
     <!-- PreferenceScreen title -->
     <!-- 条目内显示的主标题 -->
-    <string name="system_interface_title">Come on，变态吧！</string>
-
-    <!-- Clear all recents button -->
-    <!-- "清除全部最近应用"按钮 -->
-    <string name="clear_all_recents_button_title">任务全清按钮</string>
-    <string name="clear_all_recents_button_off">关闭</string>
-    <string name="clear_all_recents_button_top_left">左上</string>
-    <string name="clear_all_recents_button_top_right">右上</string>
-    <string name="clear_all_recents_button_bottom_left">左下</string>
-    <string name="clear_all_recents_button_bottom_right">右下</string>
+    <string name="system_interface_title">康忙 变态吧!</string>
 
     <!-- Navigation bar -->
     <!-- 导航栏设置 -->
     <string name="navigation_bar_category_title">导航栏设置</string>
     <!-- Navigation bar buttons customization -->
     <!-- 个性化导航栏按键 -->
-    <string name="navigation_bar_customization_title">按钮和布局</string>
-    <string name="navigation_bar_help_text">1 - 点击小锁图标以开始编辑按钮布局\n\n2 - 点击任何按钮以指定或更改功能\n\n3 - 长按任何按钮以重新排列按钮顺序\n\n4 - 再次点击小锁图标以保存按钮布局\n\n5 - 点击重置按钮以恢复系统默认设置\n\n</string>
-    <string name="navigation_bar_tips">\u2022 操作一次只能分配一个按钮\n\n\u2022 Home键不可重新分配\n\n\u2022 侧边按钮不可重新排列</string>
+    <string name="navigation_bar_customization_title">导航栏按键</string>
+    <string name="navigation_bar_help_text">1 - 点击小锁图标以开始编辑按钮布局\n\n2 - 点击任何按钮以指定或更改其功能\n\n3 - 长按任何按钮以重新排列按钮顺序\n\n4 - 再次点击小锁图标以保存按钮布局\n\n5 - 点击重置按钮以恢复系统默认设置\n\n</string>
+    <string name="navigation_bar_tips">\u2022 操作一次只能分配一个按钮\n\n\u2022 主页键不可重新分配\n\n\u2022 侧边按钮不可重新排列</string>
     <string name="navigation_bar_tips_title">快捷小贴士</string>
     <string name="navigation_bar_reset_message">删除当前设置并恢复至默认?</string>
     <string name="navigation_bar_save_message">导航栏设置已保存</string>
@@ -82,7 +73,7 @@
 
     <!-- Navigation ring targets customization -->
     <!-- 个性化导航圈目标 -->
-    <string name="navigation_ring_title">导航圈设置</string>
+    <string name="navigation_ring_title">导航圈</string>
     <string name="navring_target_reset_message">删除所有用户快速启动的快捷方式并恢复至默认?</string>
     <string name="navring_target_reset">快速启动快捷方式恢复至默认</string>
     <string name="navring_action_open_ime_switcher">打开输入法切换器</string>
@@ -97,13 +88,34 @@
     <string name="navring_action_power_menu">电源菜单</string>
     <string name="navring_choose_action_title">选择操作</string>
 
+    <!-- Power connect/disconnect prompt -->
+    <!-- 电源连接/断开提示 -->
+    <string name="plug_unplug_prompt_settings_title">电源插拔提示</string>
+    <!-- Enable/disable notification on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开通知 -->
+    <string name="power_notifications_enable_title">响铃/振动</string>
+    <string name="power_notifications_enable_summary">电源连接/断开时,播放提示音/振动</string>
+    <!-- Enable/disable vibrate on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开震动 -->
+    <string name="power_notifications_vibrate_title">振动</string>
+    <!-- Enable/disable play notification sound on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开播放通知声 -->
+    <string name="power_notifications_ringtone_title">提示音</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <!-- 启用/禁用电源连接/断开静音 -->
+    <string name="power_notifications_ringtone_silent">静音</string>
+    <!-- Enable/disable wake on power connect/disconnect -->
+    <!-- 启用/禁用电源连接/断开唤醒屏幕 -->
+    <string name="wake_when_plugged_or_unplugged_title">屏幕唤醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">电源连接/断开时,唤醒屏幕</string>
+
     <!-- Status bar -->
     <!-- 通知栏设置 -->
-    <string name="status_bar_category_title">状态栏设置</string>
+    <string name="status_bar_category_title">通知栏设置</string>
     <!-- Status bar brightness control -->
     <!-- 通知栏亮度控制 -->
     <string name="status_bar_toggle_brightness">亮度调节</string>
-    <string name="status_bar_toggle_brightness_summary">在状态栏上滑动以调节亮度</string>
+    <string name="status_bar_toggle_brightness_summary">在通知栏上滑动以调节亮度</string>
     <string name="status_bar_toggle_info">亮度自动调节需禁用</string>
     <!-- Status bar battery style selection -->
     <!-- 通知栏电池图标样式选择 -->
@@ -141,33 +153,33 @@
     <!-- Volume rocker wake -->
     <!-- 音量键唤醒屏幕 -->
     <string name="pref_volume_wake_title">屏幕唤醒</string>
-    <string name="pref_volume_wake_summary">按下音量键将唤醒你的Nexus设备</string>
+    <string name="pref_volume_wake_summary">按下音量键以唤醒 Nexus</string>
 
     <!-- Volume rocker music control -->
     <!-- 音量键播放曲目调整 -->
     <string name="volbtn_music_controls_title">音乐控制</string>
-    <string name="volbtn_music_controls_summary">锁屏时，长按音量键将搜寻音乐曲目</string>
+    <string name="volbtn_music_controls_summary">锁屏时, 长按音量键将调整音乐曲目</string>
 
     <!-- Safe headset volume -->
     <!-- 安全耳机音量 -->
     <string name="safe_headset_volume_title">耳机安全音量</string>
-    <string name="safe_headset_volume_summary">耳机第一次插入时为防止音量过大</string>
+    <string name="safe_headset_volume_summary">防止耳机首次插入时音量过大</string>
 
     <!-- Double tap to sleep settings -->
     <!-- 双击锁屏手势设置 -->
     <string name="double_tap_sleep_settings_title">双击锁屏</string>
-    <string name="double_tap_sleep_glow_pad_title">解锁环</string>
-    <string name="double_tap_sleep_glow_pad_summary">双击解锁环锁屏</string>
+    <string name="double_tap_sleep_glow_pad_title">解锁光圈</string>
+    <string name="double_tap_sleep_glow_pad_summary">双击解锁光圈锁屏</string>
     <string name="double_tap_sleep_pattern_title">解锁图案</string>
-    <string name="double_tap_sleep_pattern_summary">双击解锁图案任意处解锁</string>
-    <string name="double_tap_sleep_pin_password_title">Pin和密码</string>
-    <string name="double_tap_sleep_pin_password_summary">双击文本输入框解锁</string>
-    <string name="double_tap_sleep_status_bar_title">状态栏</string>
-    <string name="double_tap_sleep_status_bar_summary">双击状态栏任意处锁屏</string>
+    <string name="double_tap_sleep_pattern_summary">双击解锁图案任意位置锁屏</string>
+    <string name="double_tap_sleep_pin_password_title">PIN和密码</string>
+    <string name="double_tap_sleep_pin_password_summary">双击密码输入框锁屏</string>
+    <string name="double_tap_sleep_status_bar_title">通知栏</string>
+    <string name="double_tap_sleep_status_bar_summary">双击通知栏任意位置锁屏</string>
 
     <!-- Lockscreen targets customization -->
     <!-- 个性化锁屏目标 -->
-    <string name="lockscreen_targets_info">拖动滑块来指定快捷方式的目标</string>
+    <string name="lockscreen_targets_info">拖动滑块来指定快捷方式</string>
     <string name="lockscreen_targets_title">锁屏滑块</string>
     <string name="lockscreen_targets_reset">锁屏滑块恢复至默认</string>
     <string name="lockscreen_targets_reset_message">删除所有用户创建的锁屏快捷方式并恢复至默认?</string>
@@ -193,10 +205,10 @@
     <string name="icon_picker_chrome">Chrome</string>
     <string name="icon_picker_contacts">联系人</string>
     <string name="icon_picker_email">邮件</string>
-    <string name="icon_picker_email2">Holo 邮件</string>
-    <string name="icon_picker_facebook">Facebook</string>
+    <string name="icon_picker_email2">邮件 Holo</string>
+    <string name="icon_picker_facebook">脸书</string>
     <string name="icon_picker_gallery">图库</string>
-    <string name="icon_picker_google_small">Google (small)</string>
+    <string name="icon_picker_google_small">Google (小)</string>
     <string name="icon_picker_googleplus">Google+</string>
     <string name="icon_picker_googletalk">环聊</string>
     <string name="icon_picker_maps">地图</string>
@@ -204,11 +216,11 @@
     <string name="icon_picker_music">音乐</string>
     <string name="icon_picker_nav_normal">导航</string>
     <string name="icon_picker_phone">电话</string>
-    <string name="icon_picker_podcast">博客</string>
+    <string name="icon_picker_podcast">播客</string>
     <string name="icon_picker_rss">订阅</string>
     <string name="icon_picker_search">搜索</string>
     <string name="icon_picker_sms">短信</string>
-    <string name="icon_picker_twitter">Twitter</string>
+    <string name="icon_picker_twitter">推特</string>
 
     <!-- LED customization category header -->
     <!-- LED个性化分类抬头 -->
@@ -216,7 +228,7 @@
 
     <!-- LED customization dialogs -->
     <!-- LED个性化选单 -->
-    <string name="edit_light_settings">编辑LED</string>
+    <string name="edit_light_settings">LED 设置</string>
     <string name="pulse_speed_title">脉冲长度和速度</string>
     <string name="default_time">正常</string>
     <string name="custom_time">自定义</string>
@@ -224,7 +236,7 @@
     <string name="dialog_delete_title">删除</string>
     <string name="dialog_delete_message">移除所选项目?</string>
     <string name="dialog_test_message">关闭屏幕以测试所选的自定义通知灯或者关闭此对话框以停止测试</string>
-    <string name="dialog_test_button">Dismiss</string>
+    <string name="dialog_test_button">关闭</string>
 
     <!-- LED settings screen -->
     <!-- LED设置界面 -->
@@ -254,16 +266,35 @@
     <string name="pulse_speed_slow">慢</string>
     <string name="pulse_speed_very_slow">极慢</string>
 
+    <!-- Recent panel -->
+    <!-- 最近应用面板 -->
+    <string name="recent_panel_settings_title">多任务面板</string>
+    <string name="recent_panel_expanded_mode_title">展开模式</string>
+    <string name="recent_panel_expanded_mode_summary">最近任务预览的展开模式</string>
+    <string name="recent_panel_expanded_mode_auto">自动 (默认)</string>
+    <string name="recent_panel_expanded_mode_always">总是展开</string>
+    <string name="recent_panel_expanded_mode_never">总是折叠</string>
+    <string name="recent_panel_scale_title">尺寸</string>
+    <string name="recent_panel_scale_summary">多任务面板大小的百分比</string>
+    <string name="recent_panel_100">100% (默认)</string>
+    <string name="recent_panel_85">85%</string>
+    <string name="recent_panel_70">70%</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- 注意: 从右向左的语言需要替换左为右 -->
+    <string name="recent_panel_lefty_mode_title">左利手模式</string>
+    <string name="recent_panel_lefty_mode_summary">多任务面板显示于左侧</string>
+
     <!-- Increasing ringtone -->
     <!-- 渐强铃声 -->
     <string name="increasing_ring_title">渐强铃声</string>
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
     <!-- 声音设置界面, 启用渐强铃声的勾选框 -->
-    <string name="checkbox_increasing_ring">Enable</string>
+    <string name="checkbox_increasing_ring">启用</string>
     <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
     <!-- 声音设置界面, 渐强铃声的起始音量调节条的标题 -->
     <string name="increasing_ring_min_volume_title">响铃初始音量</string>
-    <string name="increasing_ring_volume_notice">注意:\n当设置的初始音量高于铃声音量时, 将优先使用铃声音量。</string>
+    <string name="increasing_ring_volume_notice">注意:\n当设置的初始音量高于铃声音量时,将优先使用铃声音量</string>
     <string name="increasing_ring_interval_title">渐强间隔</string>
     <string name="increasing_ring_interval_eachring">每次响铃</string>
     <string name="increasing_ring_interval_half_second">0.5 秒</string>
@@ -275,12 +306,17 @@
 
     <!-- Longpress back button to kill foreground app -->
     <!-- 长按返回键杀掉前台应用 -->
-    <string name="kill_app_longpress_back">长按返回键清除应用</string>
-    <string name="kill_app_longpress_back_summary">长按返回键将清除前台应用程序</string>
+    <string name="kill_app_longpress_back">返回长按杀应用</string>
+    <string name="kill_app_longpress_back_summary">长按返回键将杀掉前台应用程序</string>
 
     <!-- Main settings screen, setting title for the user to go into the About phone/tablet screen -->
     <!-- 设置主界面, 让用户进入 关于手机/平板 界面的按钮标题 -->
-    <string name="about_settings" product="tablet" msgid="593457295516533765">"关于 Nexus"</string>
-    <string name="about_settings" product="default" msgid="1743378368185371685">"关于 Nexus"</string>
+    <string name="about_settings" product="tablet">关于 Nexus</string>
+    <string name="about_settings" product="default">关于 Nexus</string>
+
+    <!-- About Nexus screen, FFFFUUUUUU build date -->
+    <!-- 关于Nexus界面, FFFFUUUUUU生产日期 -->
+    <string name="ffffuuuuuu_build_date">FFFFUUUUUU 生产日期</string>
+    <string name="ffffuuuuuu_build_date_default">1992-08-16-love</string>
 
 </resources>

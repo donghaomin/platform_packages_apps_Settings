@@ -44,9 +44,9 @@
     <!-- 音量调节面板样式 -->
     <string-array name="volume_overlay_entries">
         <item>单行</item>
-        <item>可扩展</item>
-        <item>扩展</item>
-        <item>无</item>
+        <item>可展开</item>
+        <item>完全展开</item>
+        <item>隐藏</item>
     </string-array>
 
 </resources>
