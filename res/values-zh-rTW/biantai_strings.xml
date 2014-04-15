@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $$$$$$$$$$$$$$$ $$$$$$ $$ $$$$ $$$ $ $$$ $$$$$$$ $$$ $$$ $$$$ $$$$ $$ $$$ $$$ $$ $ $$$ FFFF $$$$ $$ $$$ $$ UUUUUU $$$ $$$$$$ $$$$$$$$$ $$ $$$ $$ $$$ $$ $$ $$$$$$$$$ $$ $$ $$ $$ $$ $$$ $$$$$$$$$ $$$$$$ $$ $ $$ $$$ $$ $$$ $$ $$$ $$$ $$ $$ $$$ $$$$ $$$$$$$ $$ $$$ $$$$$$$$$$$ $$$ $$$$$ $$ $$$$ $$$ $$$$$$$$$ $$$ $$$$$ $$ $$$$$ $$$$ $$$$$$$$$$$$$$$ $$$$$$$$$$$$ $$$$ $$$ $$$$$$$$$$$ $$ $$$ $$$ $$ $$$ $$$ $$$$$$$$$$$$$$$$$$ $$$ $$$$$$$$ $$$$$$$$$$$$$ $$ $$$$ $$$ $$ $$$ $$ $$$ $$ $$$ $$$$$$$$$$$$$$$$$ $$$$$$$$$$$$$$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$$$ $$$$ $$$$$$ $$$ $$$$ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Generic strings -->
+<!-- 通用strings -->
+<string name="ok_string">確認</string><string name="reset_string">重置</string><!-- DAFUQ IS THIS -->
+<!-- Settings main menu category heading -->
+<!-- 设置主界面的分类抬头 -->
+<string name="header_category_ffffuuuuuu">FFFFUUUUUU</string><!-- Settings main menu item name -->
+<!-- 设置主界面的条目名称 -->
+<string name="system_settings_title">康忙 變態吧!</string><!-- PreferenceScreen title -->
+<!-- 条目内显示的主标题 -->
+<string name="system_interface_title">康忙 變態吧!</string><!-- Navigation bar -->
+<!-- 导航栏设置 -->
+<string name="navigation_bar_category_title">導航列設定</string><!-- Navigation bar buttons customization -->
+<!-- 个性化导航栏按键 -->
+<string name="navigation_bar_customization_title">導航列按鍵</string><string name="navigation_bar_help_text">1 - 點選小鎖圖示以開始編輯按鍵佈局\n\n2 - 點選任意按鍵以指定或更改其功能\n\n3 - 長按任何按鍵以重新排列按鍵順序\n\n4 - 再次點擊小鎖圖示以保存按鍵佈局\n\n5 - 點擊重置按鍵以恢復系統默認設定\n\n</string><string name="navigation_bar_tips">\u2022 操作一次只能分配一個按鍵\n\n\u2022 主頁鍵不可重新分配\n\n\u2022 側邊按鍵不可重新排列</string><string name="navigation_bar_tips_title">快捷小貼士</string><string name="navigation_bar_reset_message">刪除當前設定並恢復至默認?</string><string name="navigation_bar_save_message">導航列設定已保存</string><string name="navigation_bar_reset_toast">導航列已恢復至默認</string><string name="navigation_bar_menu_editable">可編輯</string><string name="navigation_bar_menu_locked">已鎖定</string><!-- Navigation ring targets customization -->
+<!-- 个性化导航圈目标 -->
+<string name="navigation_ring_title">導航環</string><string name="navring_target_reset_message">刪除全部用戶快速啟動的快捷方式並恢復至默認?</string><string name="navring_target_reset">快速啟動快捷方式恢復至默認</string><string name="navring_action_open_ime_switcher">打開輸入法轉換器</string><string name="navring_action_kill_app">清除應用</string><string name="navring_action_none">無</string><string name="navring_action_take_screenshot">螢幕擷取</string><string name="navring_action_ring_vibrate">鈴聲/振動</string><string name="navring_action_ring_silent">鈴聲/靜音</string><string name="navring_action_ring_vibrate_silent">鈴聲/振動/靜音</string><string name="navring_action_screen_off">鎖屏</string><string name="navring_action_google_now">Google 即時</string><string name="navring_action_power_menu">電源選單</string><string name="navring_choose_action_title">選擇操作</string><!-- Power connect/disconnect prompt -->
+<!-- 电源连接/断开提示 -->
+<string name="plug_unplug_prompt_settings_title">電源插拔提示</string><!-- Enable/disable notification on power connect/disconnect -->
+<!-- 启用/禁用电源连接/断开通知 -->
+<string name="power_notifications_enable_title">鈴聲/振動</string><string name="power_notifications_enable_summary">電源連線/斷開時,播放提示音/振動</string><!-- Enable/disable vibrate on power connect/disconnect -->
+<!-- 启用/禁用电源连接/断开震动 -->
+<string name="power_notifications_vibrate_title">振動</string><!-- Enable/disable play notification sound on power connect/disconnect -->
+<!-- 启用/禁用电源连接/断开播放通知声 -->
+<string name="power_notifications_ringtone_title">提示音</string><!-- Sound settings, charging sounds label for ringtone == none -->
+<!-- 启用/禁用电源连接/断开静音 -->
+<string name="power_notifications_ringtone_silent">靜音</string><!-- Enable/disable wake on power connect/disconnect -->
+<!-- 启用/禁用电源连接/断开唤醒屏幕 -->
+<string name="wake_when_plugged_or_unplugged_title">螢幕喚醒</string><string name="wake_when_plugged_or_unplugged_summary">電源連線/斷開時,喚醒螢幕</string><!-- Status bar -->
+<!-- 通知栏设置 -->
+<string name="status_bar_category_title">狀態條設定</string><!-- Status bar brightness control -->
+<!-- 通知栏亮度控制 -->
+<string name="status_bar_toggle_brightness">亮度調節</string><string name="status_bar_toggle_brightness_summary">在狀態條上滑動以調節亮度</string><string name="status_bar_toggle_info">亮度自動調節需禁用</string><!-- Status bar battery style selection -->
+<!-- 通知栏电池图标样式选择 -->
+<string name="battery_style_title">電量樣式</string><string name="battery_bar">電池</string><string name="battery_bar_percent">電池 與 百分比</string><string name="battery_circle">環狀</string><string name="battery_circle_percent">環狀 與 百分比</string><!-- Volume rocker -->
+<!-- 音量键设置 -->
+<string name="volume_rocker_category_title">音量鍵設定</string><!-- Volume Adjust sound -->
+<!-- 音量调整音 -->
+<string name="volume_adjust_sounds_title">音量調節音</string><string name="volume_adjust_sounds_summary">音量鍵調節音量時播放聲音</string><!-- Unlinked volumes -->
+<!-- 分离音量选单 -->
+<string name="link_volume_ringtones">關聯鈴聲與通知音</string><string name="link_volume_mutes">安靜模式影響通知音</string><!-- Volume overlay style -->
+<!-- 音量调节面板样式 -->
+<string name="volume_overlay_title">音量調節面板</string><string name="volume_ring_only_description">僅調節鈴聲</string><!-- Volume rocker cursor control -->
+<!-- 音量键光标调整 -->
+<string name="volume_key_cursor_control_title">游標調整</string><string name="volume_key_cursor_control_off">禁用</string><string name="volume_key_cursor_control_on">音量+/—控制游標左/右</string><string name="volume_key_cursor_control_on_reverse">音量+/—控制游標右/左</string><!-- Volume rocker wake -->
+<!-- 音量键唤醒屏幕 -->
+<string name="pref_volume_wake_title">螢幕喚醒</string><string name="pref_volume_wake_summary">按下音量鍵以喚醒 Nexus</string><!-- Volume rocker music control -->
+<!-- 音量键播放曲目调整 -->
+<string name="volbtn_music_controls_title">音樂控制</string><string name="volbtn_music_controls_summary">鎖屏時, 長按音量鍵以調整音樂曲目</string><!-- Safe headset volume -->
+<!-- 安全耳机音量 -->
+<string name="safe_headset_volume_title">耳機安全音量</string><string name="safe_headset_volume_summary">防止耳機首次插入時音量過大</string><!-- Double tap to sleep settings -->
+<!-- 双击锁屏手势设置 -->
+<string name="double_tap_sleep_settings_title">雙擊鎖屏</string><string name="double_tap_sleep_glow_pad_title">解鎖環</string><string name="double_tap_sleep_glow_pad_summary">雙擊解鎖環鎖屏</string><string name="double_tap_sleep_pattern_title">解鎖圖案</string><string name="double_tap_sleep_pattern_summary">雙擊解鎖圖案任意位置鎖屏</string><string name="double_tap_sleep_pin_password_title">PIN和密碼</string><string name="double_tap_sleep_pin_password_summary">雙擊密碼輸入框鎖屏</string><string name="double_tap_sleep_status_bar_title">狀態條</string><string name="double_tap_sleep_status_bar_summary">雙擊狀態條任意位置鎖屏</string><!-- Lockscreen targets customization -->
+<!-- 个性化锁屏目标 -->
+<string name="lockscreen_targets_info">拖動滑塊來指定快捷方式</string><string name="lockscreen_targets_title">鎖屏滑塊</string><string name="lockscreen_targets_reset">鎖屏滑塊恢復至默認</string><string name="lockscreen_targets_reset_message">刪除所有用戶創建的鎖屏快捷方式並恢復至默認?</string><string name="lockscreen_targets_empty">空</string><string name="lockscreen_targets_edit_title">編輯快捷方式和圖示</string><string name="lockscreen_targets_edit_msg">選擇或更改所期望的應用程式或活動和相關的圖示</string><!-- Lockscreen targets icon picker -->
+<!-- 锁屏目标图标选择器 -->
+<string name="icon_picker_title">選擇圖示源</string><string name="icon_picker_system_icons_title">系統圖示</string><string name="icon_picker_gallery_title">圖庫</string><string name="icon_picker_pack_title">圖示包</string><string name="profile_applist_title">應用程式</string><string name="picker_activities">活動</string><string name="select_custom_app_title">選擇自定義應用程式</string><string name="select_custom_activity_title">選擇自定義活動</string><string name="icon_picker_choose_icon_title">選擇圖示</string><string name="icon_picker_alarm">鬧鈴</string><string name="icon_picker_browser">流覽器</string><string name="icon_picker_calendar">日曆</string><string name="icon_picker_camera">相機</string><string name="icon_picker_chrome">Chrome</string><string name="icon_picker_contacts">聯繫人</string><string name="icon_picker_email">郵件</string><string name="icon_picker_email2">郵件 Holo</string><string name="icon_picker_facebook">臉書</string><string name="icon_picker_gallery">圖庫</string><string name="icon_picker_google_small">Google (小)</string><string name="icon_picker_googleplus">Google+</string><string name="icon_picker_googletalk">環聊</string><string name="icon_picker_maps">地圖</string><string name="icon_picker_movie">電影</string><string name="icon_picker_music">音樂</string><string name="icon_picker_nav_normal">導航</string><string name="icon_picker_phone">電話</string><string name="icon_picker_podcast">播客</string><string name="icon_picker_rss">訂閱</string><string name="icon_picker_search">搜索</string><string name="icon_picker_sms"簡訊</string><string name="icon_picker_twitter">推特</string><!-- LED customization category header -->
+<!-- LED个性化分类抬头 -->
+<string name="notification_led_category_title">LED 通知燈</string><!-- LED customization dialogs -->
+<!-- LED个性化选单 -->
+<string name="edit_light_settings">LED 設定</string><string name="pulse_speed_title">脈衝長度和速度</string><string name="default_time">正常</string><string name="custom_time">自定義</string><string name="dialog_test">測試</string><string name="dialog_delete_title">刪除</string><string name="dialog_delete_message">移除所選項目?</string><string name="dialog_test_message">關閉螢幕以測試所選的自定義通知燈或者關閉此對話框以停止測試</string><string name="dialog_test_button">關閉</string><!-- LED settings screen -->
+<!-- LED设置界面 -->
+<string name="notification_light_general_title">常規</string><string name="notification_light_applist_title">應用程式</string><string name="notification_light_phonelist_title">電話</string><string name="notification_light_use_custom">使用自定義值</string><string name="notification_light_default_value">默認</string><string name="notification_light_enabled">啟用</string><string name="notification_light_disabled">禁用</string><string name="notification_light_missed_call_title">未接來電</string><string name="notification_light_voicemail_title">語音信箱</string><string name="notification_light_choose_app">選擇應用</string><string name="notification_light_add">添加</string><!-- Values for LED pulse spinners -->
+<!-- LED闪烁调节的值 -->
+<string name="pulse_length_always_on">常亮</string><string name="pulse_length_very_short">極短</string><string name="pulse_length_short">短</string><string name="pulse_length_normal">正常</string><string name="pulse_length_long">長</string><string name="pulse_length_very_long">極長</string><string name="pulse_speed_very_fast">極快</string><string name="pulse_speed_fast">快</string><string name="pulse_speed_normal">正常</string><string name="pulse_speed_slow">慢</string><string name="pulse_speed_very_slow">極慢</string><!-- Recent panel -->
+<!-- 最近应用面板 -->
+<string name="recent_panel_settings_title">多任務面板</string><string name="recent_panel_expanded_mode_title">展開模式</string><string name="recent_panel_expanded_mode_summary">最近任務預覽的展開模式</string><string name="recent_panel_expanded_mode_auto">自動 (默認)</string><string name="recent_panel_expanded_mode_always">總是展開</string><string name="recent_panel_expanded_mode_never">總是折疊</string><string name="recent_panel_scale_title">尺寸</string><string name="recent_panel_scale_summary">多任務面板大小的百分比</string><string name="recent_panel_100">100% (默認)</string><string name="recent_panel_85">85%</string><string name="recent_panel_70">70%</string><!-- ATTENTION: RTL languages need to replace left with right -->
+<!-- 注意: 从右向左的语言需要替换左为右 -->
+<string name="recent_panel_lefty_mode_title">左利手模式</string><string name="recent_panel_lefty_mode_summary">多任務面板顯示於左側</string><!-- Increasing ringtone -->
+<!-- 渐强铃声 -->
+<string name="increasing_ring_title">漸強鈴聲</string><!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
+<!-- 声音设置界面, 启用渐强铃声的勾选框 -->
+<string name="checkbox_increasing_ring">啟用</string><!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+<!-- 声音设置界面, 渐强铃声的起始音量调节条的标题 -->
+<string name="increasing_ring_min_volume_title">鈴聲初始音量</string><string name="increasing_ring_volume_notice">注意:\n當設定的初始音量高於鈴聲音量時,將優先使用鈴聲音量</string><string name="increasing_ring_interval_title">漸強間隔</string><string name="increasing_ring_interval_eachring">每次鈴聲</string><string name="increasing_ring_interval_half_second">0.5 秒</string><string name="increasing_ring_interval_1second">1 秒</string><string name="increasing_ring_interval_2seconds">2 秒</string><string name="increasing_ring_interval_3seconds">3 秒</string><string name="increasing_ring_interval_5seconds">5 秒</string><string name="increasing_ring_interval_10seconds">10 秒</string><!-- Longpress back button to kill foreground app -->
+<!-- 长按返回键杀掉前台应用 -->
+<string name="kill_app_longpress_back">返回長按殺應用</string><string name="kill_app_longpress_back_summary">長按返回鍵將殺掉前臺應用程式</string><!-- Main settings screen, setting title for the user to go into the About phone/tablet screen -->
+<!-- 设置主界面, 让用户进入 关于手机/平板 界面的按键标题 -->
+<string name="about_settings" product="tablet">關於 Nexus</string><string name="about_settings" product="default">關於 Nexus</string><!-- About Nexus screen, FFFFUUUUUU build date -->
+<!-- 关于Nexus界面, FFFFUUUUUU生产日期 -->
+<string name="ffffuuuuuu_build_date">FFFFUUUUUU 生產日期</string><string name="ffffuuuuuu_build_date_default">1992-08-16-love</string></resources>
