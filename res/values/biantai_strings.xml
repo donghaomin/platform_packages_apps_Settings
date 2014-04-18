@@ -124,6 +124,12 @@
     <string name="battery_bar_percent">Battery bar &amp; percent</string>
     <string name="battery_circle">Battery circle</string>
     <string name="battery_circle_percent">Battery circle &amp; percent</string>
+    <!-- QuickSettings panel quick pulldown -->
+    <!-- 快捷设置面板快速下拉 -->
+    <string name="quick_pulldown_title">QuickSettings pulldown</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
 
     <!-- Volume rocker -->
     <!-- 音量键设置 -->
