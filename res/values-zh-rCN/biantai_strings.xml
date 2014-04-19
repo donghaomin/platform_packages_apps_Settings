@@ -124,6 +124,12 @@
     <string name="battery_bar_percent">条形电池 &amp; 百分比</string>
     <string name="battery_circle">环形电池</string>
     <string name="battery_circle_percent">环形电池 &amp; 百分比</string>
+    <!-- QuickSettings panel quick pulldown -->
+    <!-- 快捷设置面板快速下拉 -->
+    <string name="quick_pulldown_title">快速下拉</string>
+    <string name="quick_pulldown_off">关闭</string>
+    <string name="quick_pulldown_left">左侧</string>
+    <string name="quick_pulldown_right">右侧</string>
 
     <!-- Volume rocker -->
     <!-- 音量键设置 -->
