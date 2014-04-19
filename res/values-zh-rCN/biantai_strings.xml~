@@ -51,10 +51,10 @@
     <string name="header_category_ffffuuuuuu">FFFFUUUUUU</string>
     <!-- Settings main menu item name -->
     <!-- 设置主界面的条目名称 -->
-    <string name="system_settings_title">康忙, 变态吧!</string>
+    <string name="system_settings_title">康忙 变态吧!</string>
     <!-- PreferenceScreen title -->
     <!-- 条目内显示的主标题 -->
-    <string name="system_interface_title">康忙, 变态吧!</string>
+    <string name="system_interface_title">康忙 变态吧!</string>
 
     <!-- Navigation bar -->
     <!-- 导航栏设置 -->
