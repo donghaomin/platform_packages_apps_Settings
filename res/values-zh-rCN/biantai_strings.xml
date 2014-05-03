@@ -229,6 +229,13 @@
     <string name="recent_panel_lefty_mode_title">左利手模式</string>
     <string name="recent_panel_lefty_mode_summary">多任务面板显示于左侧</string>
 
+    <!-- Screen-off animations -->
+    <!-- 关屏动画设置 -->
+    <string name="screen_off_animation_settings_title">关屏动画</string>
+    <string name="screen_off_fadeout">淡出</string>
+    <string name="screen_off_electronbeam">电子光束/CRT显示器关屏</string>
+    <string name="screen_off_scaledown">收缩</string>
+
     <!-- Status bar -->
     <!-- 通知栏设置 -->
     <string name="status_bar_category_title">通知栏</string>

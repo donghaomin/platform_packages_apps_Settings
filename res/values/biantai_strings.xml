@@ -229,6 +229,13 @@
     <string name="recent_panel_lefty_mode_title">Lefty mode</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge.</string>
 
+    <!-- Screen-off animations -->
+    <!-- 关屏动画设置 -->
+    <string name="screen_off_animation_settings_title">Screen-off animation</string>
+    <string name="screen_off_fadeout">Fade out</string>
+    <string name="screen_off_electronbeam">Electron beam/CRT screen-off</string>
+    <string name="screen_off_scaledown">Scale down</string>
+
     <!-- Status bar -->
     <!-- 通知栏设置 -->
     <string name="status_bar_category_title">Status bar</string>

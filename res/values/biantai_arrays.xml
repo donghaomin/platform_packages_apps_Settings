@@ -182,6 +182,20 @@
         <item>70</item>
     </string-array>
 
+    <!-- Screen-off animations -->
+    <!-- 关屏动画选单 -->
+    <string-array name="screen_off_animation_entries" translatable="false">
+        <item>@string/screen_off_fadeout</item>
+        <item>@string/screen_off_electronbeam</item>
+        <item>@string/screen_off_scaledown</item>
+    </string-array>
+
+    <string-array name="screen_off_animation_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Status bar battery style selection dialog -->
     <!-- 通知栏电池图标样式选单 -->
     <string-array name="entries_status_bar_battery" translatable="false">
